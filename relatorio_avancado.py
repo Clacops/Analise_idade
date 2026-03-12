@@ -7,7 +7,8 @@ lista_pacientes = [
     {"nome": "Dona Sebastiana", "idade": 88},
     {"nome": "Lucas", "idade": 19}, 
     {"nome": "Antonio", "idade": 75},
-    {"nome": "Fernanda", "idade": 65}
+    {"nome": "Fernanda", "idade": 65}, 
+    {"nome": "Marcia", "idade": 67}
     ]
 
 # 2. Criando o novo arquivo de relatório
@@ -39,4 +40,5 @@ with open("relatorio_avancado.txt", "w", encoding="utf-8") as arquivo:
     arquivo.write(f"Total de atendimentos prioritários: {contador}\n")
 
 # 4. Mensagem de sucesso no terminal
+
 print("Sucesso! O arquivo 'relatorio_avancado.txt' foi gerado com os nomes dos pacientes.")
