@@ -1,0 +1,17 @@
+# Criando a lista de idades
+pacientes = [12, 65, 30, 72, 45, 88, 19, 60]
+contador_prioridade = 0
+
+print("Iniciando triagem...")
+
+for idade in pacientes:
+    if idade >= 60:
+        print(f"Alerta: Paciente de {idade} anos é PRIORITÁRIO.")
+        # Se entrou aqui, somamos 1 ao nosso contador
+        contador_prioridade = contador_prioridade + 1
+    else:
+        print(f"Paciente de {idade} anos: Atendimento comum.")
+
+# Exibir o resultado final fora do loop
+print("-" * 30)
+print(f"Total de pacientes prioritários encontrados: {contador_prioridade}")

@@ -1,0 +1,10 @@
+SISTEMA DE GESTAO HOSPITALAR - TRIAGEM
+========================================
+LISTA DE PACIENTES PRIORITARIOS:
+
+- Paciente com 65 anos: ENCAMINHAR SETOR A
+- Paciente com 72 anos: ENCAMINHAR SETOR A
+- Paciente com 88 anos: ENCAMINHAR SETOR A
+- Paciente com 60 anos: ENCAMINHAR SETOR A
+========================================
+Total de prioridades encontradas: 4
