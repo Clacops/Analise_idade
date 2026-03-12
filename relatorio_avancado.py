@@ -6,7 +6,9 @@ lista_pacientes = [
     {"nome": "Maria", "idade": 30},
     {"nome": "Dona Sebastiana", "idade": 88},
     {"nome": "Lucas", "idade": 19}, 
-    {"nome": "Antonio", "idade": 75}]
+    {"nome": "Antonio", "idade": 75},
+    {"nome": "Fernanda", "idade": 65}
+    ]
 
 # 2. Criando o novo arquivo de relatório
 with open("relatorio_avancado.txt", "w", encoding="utf-8") as arquivo:
