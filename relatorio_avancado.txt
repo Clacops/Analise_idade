@@ -1,10 +1,11 @@
-SISTEMA HOSPITALAR - TRIAGEM AVANÇADA
+SISTEMA HOSPITALAR - Versão 2.0
 =============================================
 PACIENTES PRIORITÁRIOS (A PARTIR DE 60 ANOS):
 
 - João (65 anos) -> ENCAMINHAR PARA GERIATRIA
 - Carlos (72 anos) -> ENCAMINHAR PARA GERIATRIA
 - Dona Sebastiana (88 anos) -> ENCAMINHAR PARA GERIATRIA
+- Antonio (75 anos) -> ENCAMINHAR PARA GERIATRIA
 
 =============================================
-Total de atendimentos prioritários: 3
+Total de atendimentos prioritários: 4

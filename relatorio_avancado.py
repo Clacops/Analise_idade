@@ -5,14 +5,14 @@ lista_pacientes = [
     {"nome": "Carlos", "idade": 72},
     {"nome": "Maria", "idade": 30},
     {"nome": "Dona Sebastiana", "idade": 88},
-    {"nome": "Lucas", "idade": 19}
-]
+    {"nome": "Lucas", "idade": 19}, 
+    {"nome": "Antonio", "idade": 75}]
 
 # 2. Criando o novo arquivo de relatório
 with open("relatorio_avancado.txt", "w", encoding="utf-8") as arquivo:
     
     # Cabeçalho
-    arquivo.write("SISTEMA HOSPITALAR - TRIAGEM AVANÇADA\n")
+    arquivo.write("SISTEMA HOSPITALAR - Versão 2.0\n")
     arquivo.write("=" * 45 + "\n")
     arquivo.write("PACIENTES PRIORITÁRIOS (A PARTIR DE 60 ANOS):\n\n")
     
